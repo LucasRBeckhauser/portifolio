@@ -1,8 +1,8 @@
 # Portifólio 
 
-Neste projeto, busco aprofundar meu conhecimento em Html e Css. 
+Primeiramente busco, neste projeto, aprofundar meu conhecimento em Html e Css. 
 
-Meu objetivo é ampliá-lo e com o tempo, utilizar Javascript em sua estrutura. 
+Na sequência, aplicarei Javascript a estrutura do projeto. 
 
 Técnologias utilizadas até o momento:
 
