@@ -15,24 +15,25 @@ height: 100vh;}
 
 
 header {
-display: flex;
-width: 100%;
-height: 50px;
-align-items: center;
+    width: 100%;
+    height: 50px;
+    
 }
 
-.header_home {
+
+.header__principal {
     display: flex;
+    align-items: center;
     flex-direction:row;
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     gap: 20px;
-    margin-left: 100px;
-    
+    height: 50px;
 }
-
 .header__home {
+
+    margin-left: 100px;
     margin-right:100px;
     text-decoration: none;
 }
