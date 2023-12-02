@@ -33,6 +33,12 @@ header {
 
 .header__description {
     margin-left: 100px;
+    margin-right:100px;
+    text-decoration: none;
+}
+
+.header__experiencia {
+    margin-left: 100px;
     text-decoration: none;
 }
 
