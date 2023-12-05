@@ -22,7 +22,7 @@ header {
     display: flex;
     align-items: center;
     flex-direction:row;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     gap: 20px;
@@ -57,32 +57,37 @@ header {
     margin: 0; 
     gap: 40px;
     
+    
 }
 
 .principal {
-    width: 600px;
-    height: 420px;
+    width: 40%;
+    height: 60%;
     padding-right: 200px;
     
 }
 
 .principal__titulo  {
     padding-bottom: 5%;
-font-size: 36px;
+font-size: 2.25rem;
 text-justify: auto;
 font-family: 'Krona One', sans-serif; 
+color: black;
 }
 
 
 .principal__descricao {
     text-justify: auto;
     margin-bottom: 1cm;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
     color: black;
+    
 }
 
 #minha__imagem {
-    width: 488px;
-    height: 550px; 
-    border-radius: 16px;}
+    width: 30%;
+    height: 70%;
+    
+
+}
