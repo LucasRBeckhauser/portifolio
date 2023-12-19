@@ -11,7 +11,9 @@
 body {
 background-color: rgb(255, 212, 255);
 color: rgb(85, 11, 155);
-height: 100vh;}
+height: 100vh;
+width: 100vw;
+}
 
 
 header {
@@ -83,6 +85,7 @@ font-family: 'Krona One', sans-serif;
     font-family: 'Montserrat', sans-serif;
     color: black;
     
+    
 }
 
 .botoes {
@@ -140,3 +143,49 @@ font-family: 'Krona One', sans-serif;
     width: 488px;
     height: 550px; 
     border-radius: 16px;}
+
+
+    @media (max-width:1200px) {
+        
+        .header__principal {
+            padding: -5%;
+            justify-content: center;
+            display: flex;
+
+        }
+        
+
+        .header__home {
+            gap: 10px;
+            margin-left: 0;
+            margin-right:0;
+        }
+
+        .header__description {
+            margin-left: 0;
+            margin-right:0;
+            text-decoration: none;
+            gap: 10px;
+        }
+        
+        .header__experiencia {
+            margin-left: 0;
+            text-decoration: none;
+            gap: 10px;
+        }
+
+        .apresentacao {
+            margin: 0;
+            width: 100%;
+            flex-direction: column-reverse;
+            padding: 5%;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .descricao {
+            text-align: center;
+            text-indent: 1%;
+        }
+    }
+    
